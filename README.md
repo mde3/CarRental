@@ -1,6 +1,6 @@
 # A Fully Responsive CarRental Landing Page
 > This is a basic static website about car rental showcasing my Frond-End skills.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://car-rental-8568c3.netlify.app/).
 
 ## Table of Contents
 * [Overwiew](#overview)
