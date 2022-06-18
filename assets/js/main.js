@@ -71,7 +71,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "12 June 2022";
+const newYears = "12 June 2023";
 
 function countdown() {
     const newYearsDate = new Date(newYears);
