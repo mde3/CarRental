@@ -18,7 +18,6 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
-
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav-link')
 
@@ -28,7 +27,6 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
     const header = document.getElementById('header')
@@ -36,7 +34,6 @@ function scrollHeader(){
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
@@ -56,7 +53,6 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
-
 /*=============== SHOW SCROLL UP ===============*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
@@ -64,7 +60,6 @@ function scrollUp(){
     if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
   }
   window.addEventListener('scroll', scrollUp)
-
 /*=============== DISCOUNT ===============*/ 
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
@@ -93,13 +88,9 @@ function countdown() {
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
-
 // initial call
 countdown();
-
 setInterval(countdown, 1000);
-
-
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
