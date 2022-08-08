@@ -1,4 +1,4 @@
-# A Fully Responsive CarRental Landing Page
+# A Fully Responsive CarRental Website
 > This is a basic static website about car rental showcasing my Frond-End skills.
 > Live demo [_here_](https://car-rental-8568c3.netlify.app/).
 
