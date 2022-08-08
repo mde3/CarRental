@@ -123,6 +123,7 @@ input{
     padding: 1.15rem 2.75rem;
     font-weight: var(--font-medium);
     border-radius: .75rem;
+    cursor: pointer;
     transition: .3s;
 }
 
