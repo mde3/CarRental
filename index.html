@@ -316,23 +316,22 @@
         <section class="contact section" id="contact">
             <div class="contact-container container">
                 <!-- contact form -->
-                <form action="" class="contact-form">
+                <form action="POST" data-netlify="true" class="contact-form">
                     <h2 class="contact-title">Contact Us</h2>
                     <div class="contact-inputbox">
                         <i class='bx bx-user'></i>
-                        <input type="text" placeholder="Name" required class="contact-input">
+                        <input type="text" name="name" id="name" placeholder="Name" required class="contact-input">
                     </div>
                     <div class="contact-inputbox">
                         <i class='bx bx-envelope'></i>
-                        <input type="email" placeholder="Email" required class="contact-input">
-                    </div>
-                    <div class="contact-inputbox">
-                        <i class='bx bx-phone'></i>
-                        <input type="number" placeholder="Phone Number" required class="contact-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required class="contact-input">
                     </div>
                     <div class="contact-inputbox">
                         <i class='bx bx-message-dots'></i>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message" class="contact-textarea"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Message" class="contact-textarea"></textarea>
+                    </div>
+                    <div class="contact-inputbox">
+                       <div data-netlify-recaptcha="true"></div>
                     </div>
                     <input type="submit" value="Send Message" class="button">
                 </form>
