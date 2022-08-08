@@ -581,6 +581,10 @@ input{
     border: .1px solid rgba(255, 255, 255, .1);
 }
 
+.captcha{
+    background: transparent;
+}
+
 .contact-inputbox i{
     font-size: 1.5rem;
     color: var(--text-color-lighter);
